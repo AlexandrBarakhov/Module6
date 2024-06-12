@@ -2,10 +2,6 @@ from math import pi, sqrt
 
 
 class Figure:
-    '''
-    Класс описывает фигуру
-    '''
-
     sides_count = 0
 
     def __init__(self, color, *sides):
